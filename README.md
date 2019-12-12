@@ -7,3 +7,5 @@ The user's position is estimated in two different ways:
   - Turn detection, which looks for the turn signature and respective direction in the gyroscope's measures. Used to determine the path direction, specifically when this is parallel to one of the axes.
   - Compass, which determines the user's orientation (azimuth), based on sensor fusion (adapted from Paul Lawitzki's work in http://plaw.info/articles/sensorfusion/). Used to determine the path direction, specifically when this is diagonal to both axes.
  - Based on Fingerprinting (incomplete), by using the measured beacons' RSSI value, the sensors' readings and the estimated azimuth to create a fingerprint that is sent to a remote server, which in turn returns its location prediction. This is used to correct the odometry error.
+
+Note: Only the 4 selected BLE beacons measured RSSI value is part of the fingerprints. The devices' MAC address is stored in a separate file.
