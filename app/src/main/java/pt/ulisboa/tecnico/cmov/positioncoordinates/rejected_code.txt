@@ -1,0 +1,48 @@
+    // Based on the walking direction and the step size, the x, y position is estimated
+    // Step size is stored in an attribute in the Global Class
+    // The bearing comes from the SensorService in a int array: index 0 - quadrant; index 1 - angle in quadrant
+    /*private void estimateCurrentPosition(int[] bearing) {
+        int quadrant = bearing[0];
+        int angle = bearing[1];
+
+        Log.d("Position", "Quadrant " + quadrant + " and angle " + angle + "º.");
+
+        float stepSize = globalClass.getStepSize();
+
+        int straightWalkSquare = calculateSqaure(stepSize, false);
+        int diagonalWalkSquare = calculateSqaure(stepSize, true);
+
+        if (quadrant==1){
+            if (angle<22.5){y += straightWalkSquare;}         // North
+            else if (angle>67.5){x += straightWalkSquare;}   // East
+            // Northeast
+            else{
+                x += diagonalWalkSquare;
+                y += diagonalWalkSquare;
+            }
+        } else if (quadrant==2){
+            if (angle<22.5){y -= straightWalkSquare;}         // South
+            else if (angle>67.5){x += straightWalkSquare;}   // East
+            // Southeast
+            else{
+                x += diagonalWalkSquare;
+                y -= diagonalWalkSquare;
+            }
+        } else if (quadrant==3){
+            if (angle<22.5){y -= straightWalkSquare;}         // South
+            else if (angle>67.5){x -= straightWalkSquare;}   // West
+            // Southwest
+            else{
+                x -= diagonalWalkSquare;
+                y -= diagonalWalkSquare;
+            }
+        } else if (quadrant==4){
+            if (angle<22.5){y += straightWalkSquare;}         // North
+            else if (angle>67.5){x -= straightWalkSquare;}   // West
+            // Northwest
+            else{
+                x -= diagonalWalkSquare;
+                y += diagonalWalkSquare;
+            }
+        }
+    }*/

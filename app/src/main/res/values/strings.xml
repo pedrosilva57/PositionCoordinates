@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PositionCoordinates</string>
+    <string name="pedometer_title">Pedometer</string>
+    <string name="steps_title"> Number of steps:</string>
+    <string name="beacons_title">Beacons</string>
+    <string name="gender_title">Female</string>
+    <string name="height_title">Height (m)</string>
+    <string name="saveButton_title">Save</string>
+    <string name="startExp_title">Start</string>
+    <string name="saveButton_file">Save to file</string>
+    <string name="recordButton">Record</string>
+    <string name="experimentsString">For Experiments</string>
+    <string name="defaultSettings">Default</string>
+    <string name="closestBeaconTitle">Closest beacon:</string>
+    <string name="setAzimuthTitle">Set azimuth</string>
+    <string name="Add">+</string>
+    <string name="Subtract">-</string>
+    <string name="Forward">F</string>
+    <string name="Backward">B</string>
+    <string name="Left">L</string>
+    <string name="Right">R</string>
+</resources>
